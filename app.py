@@ -19,3 +19,7 @@ def home():
     """Returing 'My Home Page'"""
     return 'My home page'
 
+
+@app.route('/about')
+def about():
+ return render_template('about.html')
